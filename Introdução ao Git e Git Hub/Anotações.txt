@@ -1,0 +1,78 @@
+lucas@DESKTOP-OEIFUHF MINGW64 ~/Desktop/DEV/GitGitHub
+$ git clone https://github.com/carolbatagini/dio-desafio-github-primeiro-repositorio.git
+Cloning into 'dio-desafio-github-primeiro-repositorio'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+lucas@DESKTOP-OEIFUHF MINGW64 ~/Desktop/DEV/GitGitHub
+$ cd dio-desafio-github-primeiro-repositorio/
+
+lucas@DESKTOP-OEIFUHF MINGW64 ~/Desktop/DEV/GitGitHub/dio-desafio-github-primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+lucas@DESKTOP-OEIFUHF MINGW64 ~/Desktop/DEV/GitGitHub/dio-desafio-github-primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "Introdu\303\247\303\243o ao Git e Git Hub/"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+lucas@DESKTOP-OEIFUHF MINGW64 ~/Desktop/DEV/GitGitHub/dio-desafio-github-primeiro-repositorio (main)
+$ git add .
+
+lucas@DESKTOP-OEIFUHF MINGW64 ~/Desktop/DEV/GitGitHub/dio-desafio-github-primeiro-repositorio (main)
+$ status
+bash: status: command not found
+
+lucas@DESKTOP-OEIFUHF MINGW64 ~/Desktop/DEV/GitGitHub/dio-desafio-github-primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   "Introdu\303\247\303\243o ao Git e Git Hub/Anota\303\247\303\265es.txt"
+
+
+lucas@DESKTOP-OEIFUHF MINGW64 ~/Desktop/DEV/GitGitHub/dio-desafio-github-primeiro-repositorio (main)
+$  git commit -m "inclusão das anotações do curso de Git/GitHub"
+[main 6c02fb3] inclusão das anotações do curso de Git/GitHub
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 "Introdu\303\247\303\243o ao Git e Git Hub/Anota\303\247\303\265es.txt"
+
+lucas@DESKTOP-OEIFUHF MINGW64 ~/Desktop/DEV/GitGitHub/dio-desafio-github-primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+lucas@DESKTOP-OEIFUHF MINGW64 ~/Desktop/DEV/GitGitHub/dio-desafio-github-primeiro-repositorio (main)
+$ git push origin main
+
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 385 bytes | 385.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/carolbatagini/dio-desafio-github-primeiro-repositorio.git
+   e77586e..6c02fb3  main -> main
+
+lucas@DESKTOP-OEIFUHF MINGW64 ~/Desktop/DEV/GitGitHub/dio-desafio-github-primeiro-repositorio (main)
+$
+
+lucas@DESKTOP-OEIFUHF MINGW64 ~/Desktop/DEV/GitGitHub/dio-desafio-github-primeiro-repositorio (main)
+$
